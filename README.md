@@ -40,10 +40,6 @@ pip install pandas numpy matplotlib seaborn nltk sklearn
 The notebook trains and evaluates the following models:
 
 - Logistic Regression
-- Decision Tree
-- Random Forest
-- K-Nearest Neighbors (KNN)
-- Gradient Boosting
 
 ---
 
@@ -68,12 +64,6 @@ The models are evaluated using:
 - Classification Report (Precision, Recall, F1-score)
 - Confusion Matrix
 - Visualization with Seaborn
-
----
-
-## 📈 Best Performing Model
-
-The **Gradient Boosting Classifier** provided the best performance with the highest accuracy and balanced classification metrics across all three classes.
 
 ---
 
@@ -104,25 +94,4 @@ Exploratory Data Analysis (EDA) includes:
 2. Open the notebook `Hate speech detection on twitter data_live.ipynb`.
 3. Run each cell in order.
 4. View visualizations and model evaluation at the end.
-
----
-
-## 📌 Notes
-
-- Ensure you have an internet connection to download NLTK corpora like stopwords and wordnet.
-- The notebook is self-contained and includes all preprocessing, training, and evaluation code.
-
----
-
-## 🛡️ Ethical Consideration
-
-This project is intended for academic and research purposes only. Hate speech detection involves subjective judgments and should be deployed carefully in real-world applications with proper validation.
-
----
-
-## 📬 Contact
-
-For feedback or questions, please reach out to the project maintainer.
-
----
 
