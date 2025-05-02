@@ -3,9 +3,8 @@
 
 This project implements a machine learning pipeline to detect hate speech in tweets. The goal is to classify tweets into three categories:
 
-- **0**: Hate Speech
-- **1**: Offensive Language
-- **2**: Neither
+- **0**: Offensive Language
+- **1**: Hate Speech
 
 The model uses text preprocessing, vectorization with TF-IDF, and various machine learning algorithms to perform classification. The dataset used is from Twitter and provides labeled samples for training and evaluation.
 
@@ -82,9 +81,8 @@ Exploratory Data Analysis (EDA) includes:
 - **Source**: [Kaggle - Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/aniketkudale/twitter-hate-speech)
 - **Columns Used**: `class`, `tweet`
 - **Classes**:
-  - `0`: Hate speech
-  - `1`: Offensive language
-  - `2`: Neither
+  - `0`: Offensive Language
+  - `1`: Hate Speech
 
 ---
 
