@@ -1,5 +1,5 @@
 
-# Hate Speech Detection on Twitter Data 🐦🛡️
+# Hate Speech Detection on Twitter Data 
 
 This project implements a machine learning pipeline to detect hate speech in tweets. The goal is to classify tweets into three categories:
 
